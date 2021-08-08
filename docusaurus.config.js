@@ -26,6 +26,12 @@ module.exports = {
           position: "left",
           label: "Tutorial",
         },
+        {
+          type: "doc",
+          docId: "monthly-intro",
+          position: "left",
+          label: "月刊",
+        },
         { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/facebook/docusaurus",
@@ -89,7 +95,7 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          // sidebarPath: require.resolve("./sidebars.js"),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/",
